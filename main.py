@@ -1,40 +1,42 @@
-#len(1234)
+#Day-2 Learning of Mathamatical Opertions
 
-#Data Type convestion
+print("May Age: " + str(25))
 
-#Data Type as String
-print(len("Hello"))
+print(123 + 456)
 
-print(len("1234"))
+print(7 - 3)
 
-#Data Type Find out
+print(3 * 2)
 
-print(type(1234))
+print(6 / 3)
 
-print(type("abc"))
+#Maathamatical Operations In BMI calulator
+Height = 1.65
 
-print(type(3.14))
+weight = 84
 
-print(type(True))
+#formual for calulate BMI
 
-#Type Casting  In python
-print(int("123") + int("456"))
+#BMI=weight/Height ** 2
 
-#Invalid Literal Error
-#print(int("abc") + int("456"))
+BMI = 84 / 1.65**2
 
-int()
-float()
-str()
-bool()
-#can oly concatenate str not Integer
-#print("Number of letters in your name: " + len(input("Enter your name")))
+print(int(BMI))
 
-Data = input("Enter your name")
-Data2 = len(Data)
+score = 0
 
-print(type("Number of letters in your name: "))  #String
+score += 1
 
-print(type(Data2))  #Int
+print(score)
 
-print("Number of letters in your name: " + str(Data2))
+# f-string
+print("Your score is " + str(score))
+
+#Example for f-strings
+score = 0
+
+height = 1.8
+is_winning = True
+
+print(f"Your score is {score}")
+print(f"your height is{height}")
